@@ -1,0 +1,82 @@
+.home {
+  background-color: $main;
+  width: 100%;
+  min-height: 100vh;
+  padding: 4rem 0;
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+    background-color: rgba(#EBEBF2, 0.61);
+  
+    &--image {
+      height: 10rem;
+    }
+  }
+
+  &__title {
+    color: white;
+    margin-top: 3rem;
+
+    &--small {
+      font-size: 1.1rem;
+      text-align: center;
+    }
+
+    &--large {
+      font-family: IranSans_bold;
+      color: white;
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 3rem;
+      text-shadow: 0 0.2rem 0.3rem rgba(0,0,0,0.3);
+    }
+  }
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  width: calc(100% - 4rem);
+  min-height: 10rem;
+  margin: 2rem;
+  border-radius: 1.5rem;
+  background-color: rgba(#FFFDFD, 0.5);
+  padding: 2rem 0;
+
+  &__icon {
+    width: 3rem;
+    height: 3rem;
+    margin: 0 2rem;
+    fill: #FE561C;
+  }
+
+  &__content {
+    width: calc(100% - 12rem);
+    &--title {
+      font-size: 1.2rem;
+      font-family: IranSans_bold;
+      text-align: right;
+      margin-bottom: 1rem;
+      color: #303030;
+    }
+    &--text {
+      font-size: 1rem;
+      text-align: right;
+      color: #707070;
+      margin: 0;
+    }
+  }
+
+  &__arrow {
+    width: 1rem;
+    height: 1rem;
+    fill: #303030;
+    margin: 0 2rem;
+  }
+}
